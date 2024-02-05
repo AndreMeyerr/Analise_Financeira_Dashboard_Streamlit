@@ -4,4 +4,4 @@ pandas
 altair
 Pillow 
 datetime
-statsmodels.tsa.holtwinters
+statsmodels

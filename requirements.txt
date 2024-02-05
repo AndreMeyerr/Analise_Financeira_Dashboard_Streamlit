@@ -2,6 +2,6 @@ streamlit
 plotly_express
 pandas
 altair
-PIL
+Pillow 
 datetime
 statsmodels.tsa.holtwinters

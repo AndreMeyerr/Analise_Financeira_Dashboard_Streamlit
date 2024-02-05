@@ -1,0 +1,7 @@
+streamlit
+plotly_express
+pandas
+altair
+PIL
+datetime
+statsmodels.tsa.holtwinters

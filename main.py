@@ -67,7 +67,8 @@ with colll1:
     fig.update_traces(texttemplate='%{y}', textposition='outside')
     fig.update_layout(
     xaxis_title="MÊS",
-    yaxis_title=""
+    yaxis_title="",
+    title_x = 0.2
 )
 
     st.plotly_chart(fig)
@@ -101,7 +102,8 @@ fig2 = px.bar(df_agregado_filtrado2, x='CUSTO DE PERSONALIZACAO ACUMULADO', y='D
 fig2.update_traces(texttemplate='%{x}', textposition='outside')
 fig2.update_layout(
     xaxis_title="",
-    yaxis_title=""
+    yaxis_title="",
+    title_x = 0.25 
 )
 with colll2:
     st.plotly_chart(fig2)
@@ -349,5 +351,5 @@ fig5.update_yaxes(range=[0, 1])
 fig5.add_hline(y=0.95, line_dash="dash", line_color="green")
 for x, y in zip(sla_por_mes['Mês'], sla_por_mes['SLA']):
     fig5.add_annotation(x=x, y=y, text="{:.2f}".format(y), showarrow=False, yshift=10)
-fig5.update_layout(autosize=False, width=1400, height=400, title_x=0.5)
+fig5.update_layout(autosize=False, width=1400, height=400, title_x=0.45)
 st.plotly_chart(fig5)

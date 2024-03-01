@@ -9,11 +9,11 @@ O repositório contém scripts em Python e planilhas em Excel para analisar dado
 
 ## Funcionalidades
 
-- **Importação e tratamento de dados contábeis e financeiros.
-- Cálculo de indicadores de rentabilidade e margens de contribuição.
-- Análise de variação do orçado x realizado com visualizações.
-- Simulação de cenários futuros com base em inputs variáveis.
-- Geração de relatórios automatizados e dashboards.
+- **Importação e tratamento de dados contábeis e financeiros.**
+- **Cálculo de indicadores de rentabilidade e margens de contribuição.**
+- **Análise de variação do orçado x realizado com visualizações.**
+- **Simulação de cenários futuros com base em inputs variáveis.**
+- **Geração de relatórios automatizados e dashboards.**
 - **Análise de Dados Financeiros:** Utiliza `pandas` para importar e tratar dados, calcular indicadores financeiros e realizar agrupamentos e sumarizações.
 - **Visualizações Interativas:** Emprega `streamlit` para criar um dashboard web interativo, `altair` e `plotly_express` para gráficos dinâmicos, e `PIL` para manipulação de imagens.
 - **Modelagem Estatística:** Utiliza `statsmodels` para previsões de tendências e padrões com a técnica de suavização exponencial de Holt-Winters.

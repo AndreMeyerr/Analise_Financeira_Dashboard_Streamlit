@@ -1,5 +1,5 @@
-# DASHBOARD-STREAMLIT-QUEIROZ-CART-ES
-# Análise de Orçamento e Rentabilidade - Projeto Sicoob
+# DASHBOARD-STREAMLIT-QUEIROZ-CARTOES
+# Análise de Orçamento e Rentabilidade - Projeto Processo Seletivo
 
 Este projeto foi desenvolvido com o objetivo de realizar análises de orçamento e rentabilidade, apoiando a governança e o processo decisório em relação às projeções patrimoniais e de resultado. O projeto permite simulações de impactos no resultado e na rentabilidade, além de apoiar áreas do banco com informações sobre o acompanhamento dos seus resultados.
 
